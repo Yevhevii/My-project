@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/all.css">
+    <title>Document</title>
+    <script  src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  crossorigin="anonymous"></script>
+    <script src="js/jcf.js"></script>
+    <script src="js/jcf.select.js"></script>
+    <script src="js/jquery.main.js"></script>
+</head>
+<body>
+    <div class="wraper">
+        <form action="#" class="contact-form">
+            <div class="row">
+                <input type="radio" class="radio-box" name="gender" id="male">
+                <label for="male" class="radio-label">Male</label>
+            </div>
+            <div class="row">
+                <input type="radio" class="radio-box" name="gender" id="female">
+                <label for="female" class="radio-label">Female</label>
+            </div>
+            <div class="row">
+                <label for="select" class="select-label">Choose your city</label>
+                <select name="" id="select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                    <option>Kyiv</option>
+                    <option>Cherkasy</option>
+                    <option>Lviv</option>
+                </select>
+            </div>
+            <div class="row">
+                <input type="checkbox" name="" class="check-box" id="rules">
+                <label for="rules" class="check-label">Yes, I agree</label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
